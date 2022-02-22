@@ -26,6 +26,12 @@ import { exit } from 'process'
   }
   
   await page.emulateMediaFeatures([{ name: 'prefers-color-scheme', value: 'dark' }])
+
+
+  await page.evaluate(() => {
+    document.querySelector('link[rel="modulepreload"]').remove()
+  })
+
   await page.evaluate(() => {
       document.querySelectorAll('script').forEach(element => {
           element.remove()
