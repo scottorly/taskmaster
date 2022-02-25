@@ -49,7 +49,7 @@ const blog = (
                 In an effort to avoid getting Italian food<SideNote>Spagehtti code is little or no seperation of concerns.</SideNote> all over the walls, alternative architectures for iOS proliferated like memory leaks.
             </p>  
             <p>
-                Of course some took it too far and end up with over-cooked lasagna.<SideNote>The opposite of spagehtti is excessive seperation of concerns.</SideNote> I think the most peculiar MVC avoidance I have encountered was a Promise based Model-View-Presenter pattern in a misguided attempt to mimic the architectures of Javascript web applications in Objective-C. Whatever the case, I think everyone can agree that anything is better than the commonly encountered anti-pattern of relying on NotificationCenter to broadcast the results of asynchronous operations.
+                Of course, some took it too far and the result is over-cooked lasagna.<SideNote>The opposite of spagehtti is excessive seperation of concerns.</SideNote> I think the most peculiar MVC avoidance I have encountered was a Promise based Model-View-Presenter pattern in a misguided attempt to mimic the architectures of Javascript web applications in Objective-C. Whatever the case, I think everyone can agree that anything is better than the commonly encountered anti-pattern of relying on NotificationCenter to broadcast the results of asynchronous operations.
             </p>
         </section>
         <section>

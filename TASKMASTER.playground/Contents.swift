@@ -38,12 +38,18 @@ class ViewModel {
     func getList()  {
         Task {
             let response =  await network.fetchList()
+            print("awaited")
             if case .success(let listResponse) = response {
+                print(response)
                 list += listResponse
             } else if case .failure(let error) = response {
                 errorMessage = error.localizedDescription
             }
         }
+    }
+
+    deinit {
+        print("viewmodel deallocated")
     }
 }
 
@@ -63,12 +69,23 @@ class ViewController: UIViewController {
         }.store(in: &bag)
 
         viewModel.$errorMessage.sink { error in
+            print(error)
             if let error = error {
                 print(error)
             }
         }
     }
+
+    deinit {
+        print("viewcontroller deallocated")
+    }
 }
 
 PlaygroundPage.current.needsIndefiniteExecution = true
 PlaygroundPage.current.liveView = ViewController()
+
+Task {
+    try? await Task.sleep(nanoseconds: 1 * 1_000_000_000)
+    PlaygroundPage.current.liveView = nil
+
+}

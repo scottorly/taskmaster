@@ -29,7 +29,10 @@ import { exit } from 'process'
 
 
   await page.evaluate(() => {
-    document.querySelector('link[rel="modulepreload"]').remove()
+    const module = document.querySelector('link[rel="modulepreload"]')
+    if (module) {
+      module.remove()
+    }
   })
 
   await page.evaluate(() => {
