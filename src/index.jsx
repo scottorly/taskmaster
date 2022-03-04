@@ -46,10 +46,10 @@ const blog = (
                 Since the earliest days of iOS development, dealing with asynchronous operations was cumbersome and limited by the ancient ways of Objective-C, the target-action/delegate pattern, Model-View-Controller, and the fact that UI update operations are required to use the main thread.
             </p>
             <p>
-                In an effort to avoid getting Italian food<SideNote>Spagehtti code is little or no seperation of concerns.</SideNote> all over the walls, alternative architectures for iOS proliferated like memory leaks.
+                In an effort to avoid getting Italian food<SideNote>Spaghetti code is little or no seperation of concerns.</SideNote> all over the walls, alternative architectures for iOS proliferated like memory leaks.
             </p>  
             <p>
-                Of course, some took it too far and the result is over-cooked lasagna.<SideNote>The opposite of spagehtti is excessive seperation of concerns.</SideNote> I think the most peculiar MVC avoidance I have encountered was a Promise based Model-View-Presenter pattern in a misguided attempt to mimic the architectures of Javascript web applications in Objective-C. Whatever the case, I think everyone can agree that anything is better than the commonly encountered anti-pattern of relying on NotificationCenter to broadcast the results of asynchronous operations.
+                Of course, some took it too far and the result is over-cooked lasagna.<SideNote>The opposite of spaghetti is excessive seperation of concerns.</SideNote> I think the most peculiar MVC avoidance I have encountered was a Promise based Model-View-Presenter pattern in a misguided attempt to mimic the architectures of Javascript web applications in Objective-C. Whatever the case, I think everyone can agree that anything is better than the commonly encountered anti-pattern of relying on NotificationCenter to broadcast the results of asynchronous operations.
             </p>
         </section>
         <section>
