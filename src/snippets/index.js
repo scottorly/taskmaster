@@ -60,8 +60,10 @@ const viewcontroller = `class ViewController: UIViewController {
     }
 }`
 
-const mainactor = `Task { @MainActor in
-
+const mainactor = `Task {
+    await MainActor.run {
+    
+    }
 }
 `
 
