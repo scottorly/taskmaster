@@ -4,25 +4,25 @@
   "description": "Blog post about the Swift programming language's new concurrency features.",
   "main": "index.js",
   "dependencies": {
-    "prismjs": "^1.28.0",
+    "prismjs": "^1.29.0",
     "tufte-css": "^1.8.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "cssnano": "^5.1.12",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
     "html-minifier": "^4.0.0",
     "jsx-pragma": "^1.0.6",
-    "postcss": "^8.4.14",
+    "postcss": "^8.4.19",
     "postcss-css-reset": "^1.0.2",
     "postcss-font-magician": "^3.0.0",
-    "postcss-import": "^14.1.0",
-    "postcss-loader": "^7.0.0",
-    "postcss-nested": "^5.0.6",
-    "postcss-preset-env": "^7.7.2",
+    "postcss-import": "^15.0.0",
+    "postcss-loader": "^7.0.1",
+    "postcss-nested": "^6.0.0",
+    "postcss-preset-env": "^7.8.2",
     "postcss-url": "^10.1.3",
-    "puppeteer": "^15.3.0",
-    "tailwindcss": "^3.1.4",
-    "vite": "^2.9.13"
+    "puppeteer": "^19.2.2",
+    "tailwindcss": "^3.2.4",
+    "vite": "^3.2.3"
   },
   "scripts": {
     "preview": "vite preview",
